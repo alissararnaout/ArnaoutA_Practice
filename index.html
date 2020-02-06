@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script src="css/main.css"></script>
+    <link rel="stylesheet" href="css/main.css">
+    
     <script src="https://unpkg.com/vue/dist/vue.js"></script>
     <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
 
@@ -15,6 +16,7 @@
     <main id="app">
         <router-link to="/">Go to Login</router-link>
         <router-link to="/app">Go to Home</router-link>
+        <!-- this is like {{{ body }}} in handlebars -->
         <router-view></router-view>
     </main>
 

@@ -8,7 +8,7 @@ const router = new VueRouter({ // when we loud our site - we hit this first
     routes: [
         { path: '/', name: "splash", component: splashPage }, // will bring back this component  - will be rendered in html
         { path: '/app', name: "app", component: appPage },
-        { path: '#', name: "error", component: errorPage}
+        { path: '*', name: "error", component: errorPage}
     ]
 })
 

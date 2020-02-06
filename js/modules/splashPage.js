@@ -1,8 +1,8 @@
 export default {
     template: `
     <section>
-    <h1>Welcome to my app</h1>
-    <button @click="registerUser">Register for Awesome Swag!</button
+        <h1>{{ message }}</h1>
+        <button @click="registerUser">Register for Awesome Swag!</button
     </section>
     `,
 
